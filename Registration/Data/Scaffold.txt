@@ -1,6 +1,4 @@
-﻿namespace Registration.Data
-{
-    public class Scaffold
-    {
-    }
-}
+﻿
+Scaffold-DbContext "Server=ARCHE-ITD440\SQLEXPRESS;Database=RegistrationDB;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.sqlServer -OutputDir Models
+
+Scaffold-DbContext "Server=ARCHE-ITD440\SQLEXPRESS;Database=RegistrationDB;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables Registration_DB, Department  -Force

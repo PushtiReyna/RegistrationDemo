@@ -1,0 +1,116 @@
+﻿@model Registration.ViewModel.RegistrationDbViewModel
+
+@{
+    var emailMessage = TempData["EmailMessage"]?.ToString();
+    var userNameMessage = TempData["UserNameMessage"]?.ToString();
+}
+
+<div class="container">
+    <div class="row">
+
+        <div class=" col-4 offset-4">
+            <h1 class=" text-center">Registration Form</h1>
+
+            <div class=" form-control">
+
+                <form asp-action="Register" method="post" enctype="multipart/form-data">
+
+                    <div class="mb-3">
+                        <label class=" form-label">First Name</label>
+                        <input type="text" class=" form-control" asp-for=FirstName placeholder="Enter First Name" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Last Name</label>
+                        <input type="text" class=" form-control" asp-for=LastName placeholder="Enter Last Name" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Date Of Birth</label>
+                        <input type="date" class=" form-control" asp-for=Dob placeholder="Enter Date of Birth" />
+                        <span asp-validation-for="Dob" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Gender</label>
+                        <br />
+
+                        <label>Male</label>
+                        <input type="radio" asp-for=Gender value="Male" />
+
+                        <label>Female</label>
+                        <input type="radio" asp-for=Gender value="Female" />
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Email</label>
+                        <input type="text" class=" form-control" asp-for=Email placeholder="Enter Email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                        @if (!string.IsNullOrEmpty(emailMessage))
+                        {
+                            <p class="text-danger" id='message'> @emailMessage</p>
+                        }
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Mobile No.</label>
+                        <input type="number" class=" form-control" asp-for=Phone placeholder="Enter Phone No." />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Username</label>
+                        <input type="text" class=" form-control" asp-for=Username placeholder="Enter Username" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                        @if (!string.IsNullOrEmpty(userNameMessage))
+                        {
+                            <p class="text-danger" id='message'> @userNameMessage</p>
+                        }
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Password</label>
+                        <input type="password" class="form-control" asp-for=Password placeholder="Enter Password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Department</label>
+                        <select asp-for="DepartmentId" class=" form-control" asp-items="ViewBag.departmentList">
+                            <option>Select Department</option>
+                        </select>
+                        <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">File Upload</label>
+                        <input type="file" class=" form-control" asp-for=UserImage />
+                        @* <span asp-validation-for="UserImage" class="text-danger"></span>*@
+                    </div>
+
+                    <div class="col-12">
+
+                        <button type="submit" class=" btn btn-primary">Sign Up</button>
+                        <a class=" btn  btn-danger m-1  text-white" asp-action="Register">Cancel</a>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+        setTimeout(function () {
+            $('#message').hide(5000);
+        });
+    </script>
+}
