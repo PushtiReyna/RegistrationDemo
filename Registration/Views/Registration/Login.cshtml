@@ -1,0 +1,54 @@
+﻿@model Registration.Models.RegistrationDb
+
+@if (ViewBag.Message != null)
+{
+    <p class="text-danger" id='message'>@ViewBag.Message</p>
+}
+
+<div class="container">
+    <div class="row">
+        <div class=" col-4 offset-4">
+
+            <h1 class=" text-center">Login</h1>
+
+            <div class=" form-control">
+
+                <form asp-action="Login" method="post">
+
+                    <div class="mb-3">
+                        <label class=" form-label">Username</label>
+                        <input type="text" class=" form-control" asp-for=Username placeholder="Enter Username" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label class=" form-label">Password</label>
+                        <input class="form-control" asp-for=Password placeholder="Enter Password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <a asp-action="ForgotPassword">Forgot Password? </a>
+                   <br/>
+                    <div class="col-12">
+
+                        <button type="submit" class=" btn btn-primary">Login</button>
+                        <a class="btn btn-primary  text-white" asp-action="Register">SignUp</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+        setTimeout(function () {
+            $('#message').hide(5000);
+        });
+    </script>
+}

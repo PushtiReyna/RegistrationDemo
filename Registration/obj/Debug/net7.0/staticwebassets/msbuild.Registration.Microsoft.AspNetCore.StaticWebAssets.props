@@ -96,6 +96,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\9103da44-aa04-408b-a1a8-f835c8624537-Screenshot (2).png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\cc4a6646-f00d-43fd-8979-3d317999ad65-Screenshot (14).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Registration</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Registration</BasePath>
+      <RelativePath>Images/cc4a6646-f00d-43fd-8979-3d317999ad65-Screenshot (14).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\cc4a6646-f00d-43fd-8979-3d317999ad65-Screenshot (14).png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ced72ad7-87e5-4707-a497-124a404ee8d9-Screenshot (8).png))">
       <SourceType>Package</SourceType>
       <SourceId>Registration</SourceId>

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Registration.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Http;
 
 namespace Registration.Controllers
 {
@@ -15,11 +16,23 @@ namespace Registration.Controllers
 
         public IActionResult Index()
         {
+            HttpContext.Session.SetString("mykey", "programer");
             return View();
         }
 
+        public IActionResult About()
+        {
+            if (HttpContext.Session.GetString("mykey") != null)
+            {
+                ViewBag.Data = HttpContext.Session.GetString("mykey").ToString();
+            }
+
+            return View();
+        }
         public IActionResult Privacy()
         {
+          
+           
             return View();
         }
 

@@ -1,8 +1,8 @@
 ﻿@model Registration.ViewModel.RegistrationDbViewModel
 
-@{
-    var emailMessage = TempData["EmailMessage"]?.ToString();
-    var userNameMessage = TempData["UserNameMessage"]?.ToString();
+@if (TempData["Success"] != null)
+{
+    <p class="text-success" id='message'>@TempData["Success"]</p>
 }
 
 <div class="container">
@@ -14,6 +14,10 @@
             <div class=" form-control">
 
                 <form asp-action="Register" method="post" enctype="multipart/form-data">
+
+                     <div class="mb-3">
+                    <p> <a class=" btn btn-primary" asp-action="Login">Already Have Account</a> </p>
+                    </div>
 
                     <div class="mb-3">
                         <label class=" form-label">First Name</label>
@@ -47,12 +51,14 @@
 
                     <div class="mb-3">
                         <label class=" form-label">Email</label>
-                        <input type="text" class=" form-control" asp-for=Email placeholder="Enter Email" />
+                        <input class=" form-control" asp-for=Email placeholder="Enter Email" />
                         <span asp-validation-for="Email" class="text-danger"></span>
-                        @if (!string.IsNullOrEmpty(emailMessage))
+
+                        @if (ViewBag.Message != null)
                         {
-                            <p class="text-danger" id='message'> @emailMessage</p>
+                            <p class="text-danger" id='message'>@ViewBag.Message</p>
                         }
+
                     </div>
 
                     <div class="mb-3">
@@ -65,15 +71,15 @@
                         <label class=" form-label">Username</label>
                         <input type="text" class=" form-control" asp-for=Username placeholder="Enter Username" />
                         <span asp-validation-for="Username" class="text-danger"></span>
-                        @if (!string.IsNullOrEmpty(userNameMessage))
+                        @if (ViewBag.Message != null)
                         {
-                            <p class="text-danger" id='message'> @userNameMessage</p>
+                            <p class="text-danger" id='message'>@ViewBag.Message</p>
                         }
                     </div>
 
                     <div class="mb-3">
                         <label class=" form-label">Password</label>
-                        <input type="password" class="form-control" asp-for=Password placeholder="Enter Password" />
+                        <input  class="form-control" asp-for=Password placeholder="Enter Password" />
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
 

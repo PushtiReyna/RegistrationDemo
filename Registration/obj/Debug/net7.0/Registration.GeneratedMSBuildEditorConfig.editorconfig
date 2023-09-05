@@ -16,12 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\project\RegistrationDemo\RegistrationDemo\Registration
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/project/RegistrationDemo/RegistrationDemo/Registration/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/project/RegistrationDemo/RegistrationDemo/Registration/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/project/RegistrationDemo/RegistrationDemo/Registration/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/RegistrationDemo/RegistrationDemo/Registration/Views/Registration/DashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXERhc2hCb2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/RegistrationDemo/RegistrationDemo/Registration/Views/Registration/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/RegistrationDemo/RegistrationDemo/Registration/Views/Registration/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/project/RegistrationDemo/RegistrationDemo/Registration/Views/Registration/Register.cshtml]

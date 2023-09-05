@@ -5,6 +5,7 @@ using Registration.ViewModel;
 using System.Diagnostics.Metrics;
 using System.IO;
 using System.Net;
+using Microsoft.AspNetCore.Http;
 
 namespace Registration.Controllers
 {
@@ -31,17 +32,18 @@ namespace Registration.Controllers
 
             ModelState.Remove("DepartmentName");
             ModelState.Remove("Department");
-           // ModelState.Remove("UserImage");
+
             if (ModelState.IsValid)
             {
                 if (_db.RegistrationDbs.Where(u => u.Email == register.Email).Any())
                 {
-                    TempData["EmailMessage"] = "Email is Already Exists.";
+                    ViewBag.Message = "Email is Already Exists.";
+                    
                     return View();
                 }
                 if(_db.RegistrationDbs.Where(u => u.Username == register.Username).Any())
                 {
-                    TempData["UserNameMessage"] = "UserName is already Exists.";
+                    ViewBag.Message = "UserName is already Exists.";
                     return View(); ;
                 }
                 else
@@ -65,6 +67,7 @@ namespace Registration.Controllers
                     };
                     _db.RegistrationDbs.Add(addUser);
                     _db.SaveChanges();
+                    TempData["Success"] = "Registration SuccessFully!";
                     return RedirectToAction("Register");
                 }
             }
@@ -73,7 +76,8 @@ namespace Registration.Controllers
 
         private string UploadFile(RegistrationDbViewModel register)
         {
-            string fileName = null; ;
+            string fileName = null;
+
             if (register.UserImage != null)
             {
                 string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "Images");
@@ -96,8 +100,58 @@ namespace Registration.Controllers
             }
             return fileName;
         }
-        
 
+        [HttpGet]
+        public IActionResult Login()
+        {
+            if (HttpContext.Session.GetString("UserSession") != null)
+            {
+                return RedirectToAction("DashBoard");
+            }
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Login(RegistrationDb register)
+        {
+            var myUser = _db.RegistrationDbs.Where( x => x.Username == register.Username && x.Password == register.Password).FirstOrDefault();
+            
+            if(myUser != null)
+            {
+                HttpContext.Session.SetString("UserSession",myUser.Username);
+                return RedirectToAction("DashBoard");
+            }
+            else
+            {
+                ViewBag.Message = "Login Failed.";
+            }
+            return View();
+        }
+        public IActionResult DashBoard()
+        {
+            if(HttpContext.Session.GetString("UserSession") != null)
+            {
+              ViewBag.MySession = HttpContext.Session.GetString("UserSession").ToString();
+            }
+            else
+            {
+                return RedirectToAction("Login");
+            }
+            return View();
+        }
+
+        public IActionResult LogOut()
+        {
+            if (HttpContext.Session.GetString("UserSession") != null)
+            {
+                HttpContext.Session.Remove("UserSession");
+            }
+            return RedirectToAction("Login");
+        }
+
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
 
         [NonAction]
         private void DepartmentList()

@@ -38,6 +38,7 @@ namespace Registration.ViewModel
         [RegularExpression(@"^[a-zA-Z0-9][a-zA-Z0-9 ]+[a-zA-Z0-9]$", ErrorMessage = "Username must contain uppercase letter, lowercase letter and numbers.")]
         public string Username { get; set; } = null!;
 
+        [DataType(DataType.Password)]
         [Required(ErrorMessage = "Please Enter Password.")]
         [MinLength(5, ErrorMessage = "The password must be at least 5 characters")]
         [MaxLength(8, ErrorMessage = "The password cannot be more than 8 characters")]

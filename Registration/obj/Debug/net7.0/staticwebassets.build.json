@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MesnwUxDfZrKZGu5gw/pngpCtYDqYmSCcJfoORGggDM=",
+  "Hash": "J9rExd9aUkBuW3MLl4f1o7tkBSKDO9Hb73SkriV6L8g=",
   "Source": "Registration",
   "BasePath": "_content/Registration",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\9103da44-aa04-408b-a1a8-f835c8624537-Screenshot (2).png"
+    },
+    {
+      "Identity": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\Images\\cc4a6646-f00d-43fd-8979-3d317999ad65-Screenshot (14).png",
+      "SourceId": "Registration",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\",
+      "BasePath": "_content/Registration",
+      "RelativePath": "Images/cc4a6646-f00d-43fd-8979-3d317999ad65-Screenshot (14).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\cc4a6646-f00d-43fd-8979-3d317999ad65-Screenshot (14).png"
     },
     {
       "Identity": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\Images\\ced72ad7-87e5-4707-a497-124a404ee8d9-Screenshot (8).png",

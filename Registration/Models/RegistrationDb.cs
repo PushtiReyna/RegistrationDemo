@@ -30,6 +30,7 @@ public partial class RegistrationDb
     [Required(ErrorMessage = "Please Enter Username.")]
     public string Username { get; set; } = null!;
 
+    [DataType(DataType.Password)]
     [Required(ErrorMessage = "Please Enter Password.")]
     public string Password { get; set; } = null!;
 
