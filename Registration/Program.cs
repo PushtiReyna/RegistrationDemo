@@ -13,6 +13,8 @@ IConfiguration configuration = new ConfigurationBuilder()
     .Build();
 builder.Services.AddDbContext<RegistrationDbContext>(option => option.UseSqlServer(configuration.GetConnectionString("DBConnectionString")));
 
+builder.Services.AddControllers();
+
 var app = builder.Build();
 
 

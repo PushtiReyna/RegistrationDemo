@@ -14,6 +14,7 @@ CREATE TABLE Registration_DB(
 	DepartmentId int Not Null,
 	IsActive [Bit] Not Null,
 	UserImage [Varchar](100) Null,
+	ResetPasswordCode [nvarchar](100) Null
 )
 
 CREATE TABLE Department(
@@ -21,5 +22,7 @@ CREATE TABLE Department(
 	DepartmentName [Varchar](100) NOT NULL
 )
 
+Alter Table Registration_DB
+  add  ResetPasswordCode nvarchar(100) null;
 
    --//VarBinary(max)

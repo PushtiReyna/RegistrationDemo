@@ -1,15 +1,33 @@
 ﻿@model Registration.Models.RegistrationDb
 
-@if (ViewBag.Message != null)
-{
-    <p class="text-danger" id='message'>@ViewBag.Message</p>
-}
 
 <div class="container">
     <div class="row">
         <div class=" col-4 offset-4">
 
             <h1 class=" text-center">Login</h1>
+
+            <div class="text-success">
+
+                @*For the Login Fail Message*@
+                @if (ViewBag.messageLoginFail != null)
+                {
+                    <p class="text-danger" id='message'>@ViewBag.messageLoginFail</p>
+                }
+
+                @*For the ForgotPassword Message*@
+                @if (TempData["messageForgotPassword"] != null)
+                {
+                    <p class="text-success" id='message'>@TempData["messageForgotPassword"]</p>
+                }
+
+                @*For the ResetPassword Message*@
+                @if (TempData["messageResetPassword"] != null)
+                {
+                    <p class="text-danger" id='message'>@TempData["messageResetPassword"]</p>
+                }
+                
+            </div>
 
             <div class=" form-control">
 
@@ -28,11 +46,11 @@
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
 
-                    <a asp-action="ForgotPassword">Forgot Password? </a>
+                    <a asp-action="ForgotPassword">Forgot Password? <br/> </a>
                    <br/>
                     <div class="col-12">
 
-                        <button type="submit" class=" btn btn-primary">Login</button>
+                        <button type="submit" class=" btn btn-primary">Signin</button>
                         <a class="btn btn-primary  text-white" asp-action="Register">SignUp</a>
 
                     </div>

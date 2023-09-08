@@ -6,6 +6,7 @@ namespace Registration.Models;
 
 public partial class RegistrationDbContext : DbContext
 {
+
     public RegistrationDbContext()
     {
     }
@@ -18,6 +19,7 @@ public partial class RegistrationDbContext : DbContext
     public virtual DbSet<Department> Departments { get; set; }
 
     public virtual DbSet<RegistrationDb> RegistrationDbs { get; set; }
+   
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Server=ARCHE-ITD440\\SQLEXPRESS;Database=RegistrationDB;Trusted_Connection=True;TrustServerCertificate=True;");
@@ -62,6 +64,7 @@ public partial class RegistrationDbContext : DbContext
             entity.Property(e => e.Phone)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+            entity.Property(e => e.ResetPasswordCode).HasMaxLength(100);
             entity.Property(e => e.UserImage)
                 .HasMaxLength(100)
                 .IsUnicode(false);

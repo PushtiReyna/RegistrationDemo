@@ -41,7 +41,10 @@ public partial class RegistrationDb
 
     public string? UserImage { get; set; }
 
-    [NotMapped]
+    public string? ResetPasswordCode { get; set; }
+
+    [NotMapped]  
     public string DepartmentName { get; set; }
 
 }
+

@@ -6,9 +6,15 @@ using System.Diagnostics.Metrics;
 using System.IO;
 using System.Net;
 using Microsoft.AspNetCore.Http;
+using System.Net.Mail;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Http.Extensions;
+using NuGet.Common;
 
 namespace Registration.Controllers
 {
+
     public class RegistrationController : Controller
     {
         private readonly RegistrationDbContext _db;
@@ -38,10 +44,10 @@ namespace Registration.Controllers
                 if (_db.RegistrationDbs.Where(u => u.Email == register.Email).Any())
                 {
                     ViewBag.Message = "Email is Already Exists.";
-                    
+
                     return View();
                 }
-                if(_db.RegistrationDbs.Where(u => u.Username == register.Username).Any())
+                if (_db.RegistrationDbs.Where(u => u.Username == register.Username).Any())
                 {
                     ViewBag.Message = "UserName is already Exists.";
                     return View(); ;
@@ -67,7 +73,7 @@ namespace Registration.Controllers
                     };
                     _db.RegistrationDbs.Add(addUser);
                     _db.SaveChanges();
-                    TempData["Success"] = "Registration SuccessFully!";
+                    TempData["successRegister"] = "Registration SuccessFully!";
                     return RedirectToAction("Register");
                 }
             }
@@ -104,33 +110,37 @@ namespace Registration.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            //if session is not remove then redirect to dashboard.
             if (HttpContext.Session.GetString("UserSession") != null)
             {
                 return RedirectToAction("DashBoard");
             }
             return View();
         }
+
         [HttpPost]
         public IActionResult Login(RegistrationDb register)
         {
-            var myUser = _db.RegistrationDbs.Where( x => x.Username == register.Username && x.Password == register.Password).FirstOrDefault();
-            
-            if(myUser != null)
+            var user = _db.RegistrationDbs.Where(x => x.Username == register.Username && x.Password == register.Password).FirstOrDefault();
+
+            if (user != null)
             {
-                HttpContext.Session.SetString("UserSession",myUser.Username);
+                //create session key.
+                HttpContext.Session.SetString("UserSession", user.Username);
                 return RedirectToAction("DashBoard");
             }
             else
             {
-                ViewBag.Message = "Login Failed.";
+                ViewBag.messageLoginFail = "Login Failed.";
+                return View();
             }
-            return View();
         }
         public IActionResult DashBoard()
         {
-            if(HttpContext.Session.GetString("UserSession") != null)
+            //Get value and display it.
+            if (HttpContext.Session.GetString("UserSession") != null)
             {
-              ViewBag.MySession = HttpContext.Session.GetString("UserSession").ToString();
+                ViewBag.MySession = HttpContext.Session.GetString("UserSession").ToString();
             }
             else
             {
@@ -141,6 +151,7 @@ namespace Registration.Controllers
 
         public IActionResult LogOut()
         {
+            //Remove Session
             if (HttpContext.Session.GetString("UserSession") != null)
             {
                 HttpContext.Session.Remove("UserSession");
@@ -152,6 +163,106 @@ namespace Registration.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult ForgotPassword(string Email)
+        {
+            var forgotPassword = _db.RegistrationDbs.Where(x => x.Email == Email).FirstOrDefault();
+
+            if (forgotPassword != null)
+            {
+                string resetPasswordCode = Guid.NewGuid().ToString();
+                SendLinkEmail(forgotPassword.Email, resetPasswordCode);
+                forgotPassword.ResetPasswordCode = resetPasswordCode;
+
+                _db.SaveChanges();
+                TempData["messageForgotPassword"] = "Reset password link has been sent to your email.";
+                return RedirectToAction("Login");
+            }
+            else
+            {
+                TempData["messageFail"] = "Account Not Found";
+                return View();
+            }
+        }
+
+        [NonAction]
+        public void SendLinkEmail(string Email, string resetPasswordCode)
+        {
+            var link = "https://localhost:7193/Registration/ResetPassword/" + resetPasswordCode;
+
+            var fromEmail = new MailAddress("pushti.prajapati2001@gmail.com", "Reset Password");
+            var toEmail = new MailAddress(Email);
+            var fromEmailPassword = "qzdayomvdiardnuz";
+
+            string subject = "Reset Password";
+            string body = "Hello,<br/><br/>We got request for reset your account password. Please click on the below link to reset your password" +
+                   "<br/><br/><a href=" + link + ">Reset Password</a>";
+
+            var smtp = new SmtpClient
+            {
+                Host = "smtp.gmail.com",
+                Port = 587,
+                EnableSsl = true,
+                DeliveryMethod = SmtpDeliveryMethod.Network,
+                UseDefaultCredentials = false,
+                
+                Credentials = new NetworkCredential(fromEmail.Address, fromEmailPassword)
+            };
+
+            using (var message = new MailMessage(fromEmail, toEmail)
+            {
+                Subject = subject,
+                Body = body,
+                IsBodyHtml = true
+            })
+           smtp.Send(message);
+        }
+
+
+        [HttpGet]
+        public ActionResult ResetPassword(string id)
+        {
+            var user = _db.RegistrationDbs.Where(a => a.ResetPasswordCode == id).FirstOrDefault();
+            if (user != null)
+            {
+                ResetPasswordViewModel model = new ResetPasswordViewModel();
+                model.ResetPasswordCode = id;
+                return View(model);
+            }
+            else
+            {             
+                return View("Views/Shared/Error.cshtml");
+            }
+
+        }
+
+        [HttpPost]
+        public ActionResult ResetPassword(ResetPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = _db.RegistrationDbs.Where(a => a.ResetPasswordCode == model.ResetPasswordCode).FirstOrDefault();
+                if (user != null)
+                {
+                    user.Password = model.NewPassword;
+                    user.ResetPasswordCode = "";
+                    _db.SaveChanges();
+                    TempData["messageResetPassword"] = "New password updated successfully";
+                    return RedirectToAction("Login");
+                }
+                return RedirectToAction("Login");
+            }
+            else
+            {
+                ViewBag.message = "Something invalid";
+                return View();
+            }
+
+        }
+
+
+        
 
         [NonAction]
         private void DepartmentList()
