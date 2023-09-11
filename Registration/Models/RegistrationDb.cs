@@ -45,6 +45,6 @@ public partial class RegistrationDb
 
     [NotMapped]  
     public string DepartmentName { get; set; }
-
+ 
 }
 

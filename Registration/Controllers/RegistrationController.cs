@@ -11,11 +11,14 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Http.Extensions;
 using NuGet.Common;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Win32;
 
 namespace Registration.Controllers
 {
 
     public class RegistrationController : Controller
+
     {
         private readonly RegistrationDbContext _db;
         private readonly IWebHostEnvironment _webHostEnvironment;
@@ -44,13 +47,17 @@ namespace Registration.Controllers
                 if (_db.RegistrationDbs.Where(u => u.Email == register.Email).Any())
                 {
                     ViewBag.Message = "Email is Already Exists.";
-
                     return View();
                 }
                 if (_db.RegistrationDbs.Where(u => u.Username == register.Username).Any())
                 {
                     ViewBag.Message = "UserName is already Exists.";
-                    return View(); ;
+                    return View(); 
+                }
+                if (_db.RegistrationDbs.Where(u => u.Password == register.Password).Any())
+                {
+                    ViewBag.Message = "Password is already Exists.";
+                    return View(); 
                 }
                 else
                 {
@@ -174,7 +181,7 @@ namespace Registration.Controllers
                 string resetPasswordCode = Guid.NewGuid().ToString();
                 SendLinkEmail(forgotPassword.Email, resetPasswordCode);
                 forgotPassword.ResetPasswordCode = resetPasswordCode;
-
+                _db.Entry(forgotPassword).State = EntityState.Modified;
                 _db.SaveChanges();
                 TempData["messageForgotPassword"] = "Reset password link has been sent to your email.";
                 return RedirectToAction("Login");
@@ -206,7 +213,6 @@ namespace Registration.Controllers
                 EnableSsl = true,
                 DeliveryMethod = SmtpDeliveryMethod.Network,
                 UseDefaultCredentials = false,
-                
                 Credentials = new NetworkCredential(fromEmail.Address, fromEmailPassword)
             };
 
@@ -216,40 +222,40 @@ namespace Registration.Controllers
                 Body = body,
                 IsBodyHtml = true
             })
-           smtp.Send(message);
+                smtp.Send(message);
         }
 
 
         [HttpGet]
-        public ActionResult ResetPassword(string id)
+        public IActionResult ResetPassword(string id)
         {
             var user = _db.RegistrationDbs.Where(a => a.ResetPasswordCode == id).FirstOrDefault();
             if (user != null)
             {
-                ResetPasswordViewModel model = new ResetPasswordViewModel();
-                model.ResetPasswordCode = id;
-                return View(model);
+                ResetPasswordViewModel obj = new ResetPasswordViewModel();
+                obj.ResetPasswordCode = id;
+                return View(obj);
             }
             else
-            {             
+            {
                 return View("Views/Shared/Error.cshtml");
             }
 
         }
 
         [HttpPost]
-        public ActionResult ResetPassword(ResetPasswordViewModel model)
+        public IActionResult ResetPassword(ResetPasswordViewModel obj)
         {
             if (ModelState.IsValid)
             {
-                var user = _db.RegistrationDbs.Where(a => a.ResetPasswordCode == model.ResetPasswordCode).FirstOrDefault();
+                var user = _db.RegistrationDbs.Where(a => a.ResetPasswordCode == obj.ResetPasswordCode).FirstOrDefault();
                 if (user != null)
                 {
-                    user.Password = model.NewPassword;
+                    user.Password = obj.NewPassword;
                     user.ResetPasswordCode = "";
+                    _db.Entry(user).State = EntityState.Modified;
                     _db.SaveChanges();
                     TempData["messageResetPassword"] = "New password updated successfully";
-                    return RedirectToAction("Login");
                 }
                 return RedirectToAction("Login");
             }
@@ -258,11 +264,50 @@ namespace Registration.Controllers
                 ViewBag.message = "Something invalid";
                 return View();
             }
-
         }
 
+        [HttpGet]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
 
-        
+        [HttpPost]
+        public IActionResult ChangePassword(ChangePasswordViewModel changePassword)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = _db.RegistrationDbs.Where(x => x.Password == changePassword.Password).FirstOrDefault();
+                if (user != null)
+                {
+                    if (user.Password == changePassword.NewPassword)
+                    {
+                        ViewBag.message = "New password is already exists.";
+                        return View();
+                    }
+                    else
+                    {
+                        var userdetail = _db.RegistrationDbs.FirstOrDefault(x => x.Id == user.Id && x.Password == user.Password);
+                        if (userdetail != null)
+                        {
+                            userdetail.Password = changePassword.NewPassword;
+                            _db.Entry(userdetail).State = EntityState.Modified;
+                            _db.SaveChanges();
+                            TempData["messageChangePassword"] = "New password updated successfully";
+                            return RedirectToAction("Login");
+                        }
+                        ViewBag.message = "Password is incorrect.";
+                        return View();
+                    }
+                }
+                return View();
+            }
+            else
+            {
+                ViewBag.message = "Something is wrong.";
+                return View();
+            }
+        }
 
         [NonAction]
         private void DepartmentList()

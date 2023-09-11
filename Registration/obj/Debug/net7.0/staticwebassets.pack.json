@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Images\\3fe8ac19-603a-4ff3-8dcf-d864c6fc3f3d-Screenshot (10).png"
     },
     {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\Images\\48b52c53-c2ee-4bd1-93d7-9fa6f484a24a-austin.jpg",
+      "PackagePath": "staticwebassets\\Images\\48b52c53-c2ee-4bd1-93d7-9fa6f484a24a-austin.jpg"
+    },
+    {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\Images\\9103da44-aa04-408b-a1a8-f835c8624537-Screenshot (2).png",
       "PackagePath": "staticwebassets\\Images\\9103da44-aa04-408b-a1a8-f835c8624537-Screenshot (2).png"
     },
@@ -111,6 +115,22 @@
     {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",

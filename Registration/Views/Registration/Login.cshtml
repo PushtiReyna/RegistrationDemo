@@ -26,6 +26,14 @@
                 {
                     <p class="text-danger" id='message'>@TempData["messageResetPassword"]</p>
                 }
+
+                @*For the ResetPassword Message*@
+                @if (TempData["messageResetPassword"] != null)
+                {
+                    <p class="text-danger" id='message'>@TempData["messageResetPassword"]</p>
+                }
+
+
                 
             </div>
 

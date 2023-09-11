@@ -2,5 +2,22 @@
 
 <h2> Hello, @ViewBag.MySession</h2>
 
+ 
+<div class="text-success">
+
+    @*For the change password Message*@
+    @if (TempData["messageChangePassword"] != null)
+    {
+        <p class="text-danger" id='message'>@TempData["messageChangePassword"]</p>
+    }
+    </div>
+
+<a class=" btn  btn-primary m-1 text-white" asp-action="ChangePassword">Change Password</a>
+
 <a class=" btn  btn-danger m-1 text-white" asp-action="LogOut">LogOut</a>
 
+<script type="text/javascript">
+    setTimeout(function () {
+        $('#message').hide(5000);
+    });
+</script>

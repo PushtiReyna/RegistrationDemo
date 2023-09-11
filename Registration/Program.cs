@@ -6,12 +6,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//Add Services For Session.
 builder.Services.AddSession();
 
-IConfiguration configuration = new ConfigurationBuilder()
-   .AddJsonFile("appsettings.json")
-    .Build();
-builder.Services.AddDbContext<RegistrationDbContext>(option => option.UseSqlServer(configuration.GetConnectionString("DBConnectionString")));
+
+builder.Services.AddDbContext<RegistrationDbContext>(options => options.UseSqlServer(
+    builder.Configuration.GetConnectionString("DBConnectionString")
+    ));
 
 builder.Services.AddControllers();
 
@@ -38,6 +39,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Registration}/{action=Register}/{id?}");
 
 app.Run();
