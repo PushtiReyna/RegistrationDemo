@@ -1,6 +1,182 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Registration.bundle.scp.css",
       "PackagePath": "staticwebassets\\Registration.bundle.scp.css"
     },
@@ -35,6 +211,266 @@
     {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\Images\\ced72ad7-87e5-4707-a497-124a404ee8d9-Screenshot (8).png",
       "PackagePath": "staticwebassets\\Images\\ced72ad7-87e5-4707-a497-124a404ee8d9-Screenshot (8).png"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\css\\style.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\css\\style.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\Logo.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\Logo.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\js\\main.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\js\\main.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\css\\site.css",

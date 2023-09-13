@@ -2,12 +2,116 @@
 
 <html>
 <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>Registration</title>
+
+ @*  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Registration.styles.css" asp-append-version="true" />*@
+
+    <!-- Vendor CSS Files -->
+
+    <link href="~/registrationlayout/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/registrationlayout/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/registrationlayout/vendor/bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/registrationlayout/vendor/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="~/registrationlayout/css/style.css" rel="stylesheet" asp-append-version="true" />
+
 </head>
+
 <body>
-    <div>
-        @RenderBody()
-    </div>
+
+
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+           
+            <h1 class="logo">
+                <a asp-controller="Home" asp-action="Index" class="logo"><img src="~/registrationlayout/img/logo.jpg" alt="Responsive Image" class="img-fluid" /></a>
+            </h1>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="Registration" asp-action="Register">SignUp</a></li>
+                    <li><a class="nav-link scrollto" a asp-controller="Registration" asp-action="Login">SignIn</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+  <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+  </div>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info">
+                            <h3>Register</h3>
+
+                            <p>
+                                Vadodara,India<br><br>
+                                <strong>Phone:</strong> +91 120369457<br>
+                                <strong>Email:</strong> register@gmail.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a asp-controller="Home" asp-action="Index">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a asp-controller="Registration" asp-action="Register">SignUp</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a asp-controller="Registration" asp-action="Login">SignIn</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Register</span></strong>. All Rights Reserved - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+
+    @*<script src="registrationlayout/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>*@
+
+@*    <script src="~/lib/bootstrap/registrationlayoutbootstrap/js/bootstrap.min.js"></script>*@
+
+   
+    <!-- Template Main JS File -->
+    <script src="~/registrationlayout/js/main.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

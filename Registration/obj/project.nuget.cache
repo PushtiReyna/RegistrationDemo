@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MLadDAHB08FR1GC2PE24td2UqXifYkzzX/S2l71p5P9qZfLbsm5Pb5n7PrXk+XnnqYvfxfeigh6YvYL5u3yMdQ==",
+  "dgSpecHash": "vNSClTbeosId0ANprOGmhzGaGo6o73b1zxQIHRQU5wVtyuoyrMfEOjLnrsqYUwMS9Q4LII7ttGEp2U7WsBcJRw==",
   "success": true,
   "projectFilePath": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\Registration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reyna\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Reyna\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Reyna\\.nuget\\packages\\bootstrap\\5.3.1\\bootstrap.5.3.1.nupkg.sha512",
     "C:\\Users\\Reyna\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Reyna\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Reyna\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
