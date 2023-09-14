@@ -221,8 +221,148 @@
       "PackagePath": "staticwebassets\\RegistrationLayout\\img\\Logo.jpg"
     },
     {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-7.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-8.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-9.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-details-1.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-details-1.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-details-2.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-details-2.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\portfolio\\portfolio-details-3.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\portfolio\\portfolio-details-3.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\slide\\slide-2.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\slide\\slide-2.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\slide\\slide-3.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\slide\\slide-3.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\slide\\slide1.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\slide\\slide1.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\img\\why-us.jpg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\img\\why-us.jpg"
+    },
+    {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\js\\main.js",
       "PackagePath": "staticwebassets\\RegistrationLayout\\js\\main.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\animate.css\\animate.compat.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\animate.css\\animate.compat.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\animate.css\\animate.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\animate.css\\animate.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\animate.css\\animate.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\animate.css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\aos\\aos.js.map"
     },
     {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\bootstrap-icons\\bootstrap-icons.css",
@@ -459,6 +599,82 @@
     {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.woff2",
       "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.eot",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.eot"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.glyph.json",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.glyph.json"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.less",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.less"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.svg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.svg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.ttf"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.woff",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.woff"
+    },
+    {
+      "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\remixicon\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\RegistrationLayout\\vendor\\remixicon\\remixicon.woff2"
     },
     {
       "Id": "D:\\project\\RegistrationDemo\\RegistrationDemo\\Registration\\wwwroot\\RegistrationLayout\\vendor\\swiper\\swiper-bundle.min.css",

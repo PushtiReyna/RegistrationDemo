@@ -1,75 +1,81 @@
 ﻿@model Registration.Models.RegistrationDb
 
 @{
-    Layout = "_RegistrationLayout";
+    Layout = "_Layout";
 }
-<div class="container">
-    <div class="row" style="margin-top: 170px; margin-bottom:100px; " >
-        <div class=" col-4 offset-4">
-
-            <h1 class=" text-center">Login</h1>
-
-            <div class="text-success">
-
-                @*For the Login Fail Message*@
-                @if (ViewBag.messageLoginFail != null)
-                {
-                    <p class="text-danger" id='message'>@ViewBag.messageLoginFail</p>
-                }
-
-                @*For the ForgotPassword Message*@
-                @if (TempData["messageForgotPassword"] != null)
-                {
-                    <p class="text-success" id='message'>@TempData["messageForgotPassword"]</p>
-                }
-
-                @*For the ResetPassword Message*@
-                @if (TempData["messageResetPassword"] != null)
-                {
-                    <p class="text-danger" id='message'>@TempData["messageResetPassword"]</p>
-                }
-
-                @*For the ResetPassword Message*@
-                @if (TempData["messageResetPassword"] != null)
-                {
-                    <p class="text-danger" id='message'>@TempData["messageResetPassword"]</p>
-                }
 
 
-                
-            </div>
+@*//Render section*@
+@section Test
+    {
 
-            <div class=" form-control">
+    <div class="container">
+        <div class="row" style="margin-top: 170px; margin-bottom:100px; ">
+            <div class=" col-4 offset-4">
 
-                <form asp-action="Login" method="post">
+                <h1 class=" text-center">Login</h1>
 
-                    <div class="mb-3">
-                        <label class=" form-label">Username</label>
-                        <input type="text" class=" form-control" asp-for=Username placeholder="Enter Username" />
-                        <span asp-validation-for="Username" class="text-danger"></span>
+                <div class="text-success">
 
-                    </div>
+                    @*For the Login Fail Message*@
+                    @if (ViewBag.messageLoginFail != null)
+                    {
+                        <p class="text-danger" id='message'>@ViewBag.messageLoginFail</p>
+                    }
 
-                    <div class="mb-3">
-                        <label class=" form-label">Password</label>
-                        <input class="form-control" asp-for=Password placeholder="Enter Password" />
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
+                    @*For the ForgotPassword Message*@
+                    @if (TempData["messageForgotPassword"] != null)
+                    {
+                        <p class="text-success" id='message'>@TempData["messageForgotPassword"]</p>
+                    }
 
-                    <a asp-action="ForgotPassword">Forgot Password? <br/> </a>
-                   <br/>
-                    <div class="col-12">
+                    @*For the ResetPassword Message*@
+                    @if (TempData["messageResetPassword"] != null)
+                    {
+                        <p class="text-danger" id='message'>@TempData["messageResetPassword"]</p>
+                    }
 
-                        <button type="submit" class=" btn btn-primary">Signin</button>
-                        <a class="btn btn-primary  text-white" asp-action="Register">SignUp</a>
+                    @*For the ResetPassword Message*@
+                    @if (TempData["messageResetPassword"] != null)
+                    {
+                        <p class="text-danger" id='message'>@TempData["messageResetPassword"]</p>
+                    }
 
-                    </div>
-                </form>
+
+
+                </div>
+
+                <div class=" form-control">
+
+                    <form asp-action="Login" method="post">
+
+                        <div class="mb-3">
+                            <label class=" form-label">Username</label>
+                            <input type="text" class=" form-control" asp-for=Username placeholder="Enter Username" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label class=" form-label">Password</label>
+                            <input class="form-control" asp-for=Password placeholder="Enter Password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <a asp-action="ForgotPassword">Forgot Password? <br /> </a>
+                        <br />
+                        <div class="col-12">
+
+                            <button type="submit" class=" btn btn-primary">Signin</button>
+                            <a class="btn btn-primary  text-white" asp-action="Register">SignUp</a>
+
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
+}
 @section scripts{
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
